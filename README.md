@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# RiskVault 🔒
 
-# Run and deploy your AI Studio app
+RiskVault is an AI-powered risk assessment and security monitoring platform designed to analyze, score, and manage risk factors across financial workflows.
 
-This contains everything you need to run your app locally.
+## Features
+- **Automated Risk Analysis**: Real-time evaluation of data parameters using Google Gemini API.
+- **Vault Management**: Secure storage and tracking for critical data points.
+- **Interactive Dashboard**: Modern UI built with Next.js and Tailwind CSS.
 
-View your app in AI Studio: https://ai.studio/apps/1d1c9d03-1eb3-4d10-87f4-ff1dd92bd5a4
+## Tech Stack
+- **Frontend**: Next.js, React, Tailwind CSS
+- **AI/LLM**: Google Gemini API
+- **Version Control**: Git & GitHub
 
-## Run Locally
+## Getting Started Locally
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Anu-0207/Risk-Vault.git](https://github.com/Anu-0207/Risk-Vault.git)
