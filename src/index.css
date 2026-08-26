@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #020617;
+    --card-bg: rgba(30, 41, 59, 0.4);
+    --border: rgba(148, 163, 184, 0.1);
+    --cyan: #22d3ee;
+    --indigo: #818cf8;
+    --rose: #f43f5e;
+    --emerald: #10b981;
+  }
+
+  body {
+    background-color: #020617;
+    color: #f8fafc;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom design classes matching Bold Typography theme */
+.font-display {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11", "tnum";
+}
+
+.massive-number {
+  font-size: clamp(4rem, 8vw, 7rem);
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+}

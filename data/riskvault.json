@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "usr_1787724599465_k6ges",
+      "full_name": "Ananya Vemuri",
+      "email": "ananyavemuri81@gmail.com",
+      "password_hash": "$2b$10$ckezUS8kBDAa0QYhVVhxKOwdZnBtx/BnjU789vj3aK5/BWfME8SpK",
+      "created_at": "2026-08-26T06:09:59.465Z"
+    }
+  ],
+  "scans": [
+    {
+      "id": "scn_1787727178642_86d1l5",
+      "user_id": "usr_1787724599465_k6ges",
+      "input": "made psyment ampount mpt credited",
+      "risk_score": 0,
+      "risk_level": "LOW",
+      "trust_index": 100,
+      "summary": "Local risk inspection completed across privacy, injection patterns, cybersecurity vulnerabilities, and fraud heuristics.",
+      "analysis_engine": "Local Deterministic Risk Engine",
+      "privacy": 0,
+      "security": 0,
+      "hallucination": 0,
+      "bias": 0,
+      "compliance": 0,
+      "fraud": 0,
+      "threats": [],
+      "recommendations": [
+        {
+          "id": "rec_clean_pass",
+          "title": "Maintain Standard Audit Logging",
+          "description": "No immediate critical risk signals detected. Continue standard telemetry and periodically review token usage.",
+          "resolved": true,
+          "priority": "Low"
+        }
+      ],
+      "created_at": "2026-08-26T06:52:58.642Z"
+    }
+  ]
+}

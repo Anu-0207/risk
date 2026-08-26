@@ -1,0 +1,6 @@
+{
+  "name": "RiskVault",
+  "description": "Trust Every AI Decision. Full-stack AI risk intelligence platform for privacy, cybersecurity, prompt injection, fraud, compliance, and trustworthy AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
