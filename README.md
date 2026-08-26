@@ -16,4 +16,4 @@ RiskVault is an AI-powered risk assessment and security monitoring platform desi
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Anu-0207/Risk-Vault.git](https://github.com/Anu-0207/Risk-Vault.git)
+  git clone https://github.com/Anu-0207/Risk-Vault.git
